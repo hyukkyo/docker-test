@@ -1,0 +1,50 @@
+# 노드 모듈
+node_modules/
+
+# 로그 파일
+logs
+*.log
+npm-debug.log*
+
+# 런타임 데이터
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 디렉토리
+coverage/
+.nyc_output
+.grunt
+bower_components/
+.lock-wscript
+build/Release
+dist/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+
+# 환경 설정 파일
+.env
+.env.test
+.env.production
+
+# 기타
+.DS_Store
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.cache
+.parcel-cache
+
+# IDE 관련
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 보안 관련
+package-lock.json
